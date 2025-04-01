@@ -1,0 +1,116 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.blinkit h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.location{
+    margin-left: 60px; 
+}
+
+.location h2 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+  
+}
+
+.location span {
+    font-size: 14px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer; /* Makes it look clickable */
+    display: flex;
+    align-items: center; /* Aligns text with icon */
+    gap: 5px; /
+}
+.location .fa-chevron-down {
+    font-size: 14px;
+    color: black; /* Change color if needed */
+    transition: transform 0.3s ease; /* Smooth animation */
+}
+
+/* Optional: Rotate arrow on hover */
+.location:hover .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5; 
+    border-radius: 25px;
+    padding: 5px 15px;
+    width: 450px;
+    height: 45px;
+    margin-left: 80px;
+}
+
+
+.search-icon {
+    font-size: 20px;
+    color: gray;
+    margin-right: 10px;
+}
+
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    padding: 8px;
+    color: black;
+}
+
+
+.search-bar input::placeholder {
+    color: gray;
+}
+
+
+.login button {
+    background:none;
+    border: rgb(199, 184, 184);
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+    margin-left:60px;
+    border-radius: 15px;
+
+}
+.search-bar::before {
+    content: "🔍";
+    margin-right: 10px;
+}
+
+.cart button {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding:  15px;
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ 
+}
+
+/* Cart icon inside button */
+.cart button::before {
+    content: "🛒";
+    margin-right: 10px;
+}
