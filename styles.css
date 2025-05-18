@@ -116,11 +116,11 @@
 }
  .trending{
 border-radius: 20px;
-width: 1250px;
-height: 200px;
+width: 1350px;
+height: 180px;
 background: linear-gradient(to bottom, #55eb7d, #1b910d);
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-margin-top: 30px;
+margin-top: 5px;
 }
 .container{
 display: flex;
@@ -146,10 +146,10 @@ justify-content: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .trending button {
-    padding: 12px 24px;
+    padding: 12px 20px;
     font-size: 10px;
-    margin-left: 33px;
-    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
     background-color: #fbfdfe;
     border: none;
     border-radius: 5px;
@@ -161,3 +161,68 @@ justify-content: center;
 .trending button:hover {
     background-color: #e6b800;
 }
+
+.container {
+  display: flex;
+  justify-content:start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding:10px;
+  gap:20px;
+ 
+  
+}
+
+.pharmacy {
+ background-color:  #00B5AD;
+ border-radius: 15px;
+ height: 200px;
+ width: 350px;
+ padding-top: 10px;
+ padding-left: 20px;
+}
+
+.pharmacy button{
+    background-color: #f5f1f1;
+    border-radius:9px;
+    border-color: aliceblue;
+    height: 28px;
+    width:90px;
+}
+
+.Pet-Care {
+    background-color: #FFD100;
+    color: #333;
+    border-radius: 15px;
+    height: 200px;
+    width: 350px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.Pet-Care button{
+    background-color: #080808;
+    border-radius:9px;
+    border-color: rgb(12, 13, 13);
+    height: 28px;
+    width:90px;
+    color: white;
+}
+.baby-care {
+    background-color: #A6C0DC;
+    color: #333;
+    border-radius: 15px;
+    height: 200px;
+    width: 350px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+    .baby-care button{
+    background-color: #080808;
+    border-radius:9px;
+    border-color: rgb(12, 13, 13);
+    height: 28px;
+    width:90px;
+    color: white;
+    }
